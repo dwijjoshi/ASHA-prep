@@ -1,0 +1,86 @@
+* {
+    margin: 5px;
+    padding: 1px;
+}
+html{
+    box-sizing: border-box;
+    font-size: 78%;
+}
+/* img{
+    width: 60px;
+    height: auto;
+} */
+/* .card{
+    background-color: #F1925C;
+    background-color: #21ACE8;
+    ;
+} */
+.card-img-top{
+    width: 24%;
+}
+img.card-img-top{
+    padding-inline: 14px;
+    padding-bottom: -9px;
+    margin-left: 102px;
+    margin-top: 25px;
+}
+.card:hover{
+    background-color: #F1925C;
+    
+    cursor: pointer;
+}
+#process{
+    
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    display: inline;
+}
+h3{
+    text-align: center;
+
+}
+.card-group1{
+    position: absolute;
+width: 420px;
+height: 244px;
+left: 70px;
+top: 1038px;
+
+background: #F1925C;
+border-radius: 10px;
+    
+}
+.card-group2{
+    position: absolute;
+width: 419px;
+height: 244px;
+left: 511px;
+top: 1038px;
+
+background: #21ACE8;
+border-radius: 10px;
+    
+    
+}
+.card-group3{
+    position: absolute;
+width: 418px;
+height: 244px;
+left: 950px;
+top: 1038px;
+
+background: #0DC51F;
+border-radius: 10px;
+    
+}
+.card-group1:hover{
+    background-color: #f6600a;
+}
+.card-group2:hover{
+    background-color: #0e9ddbfa;
+}
+.card-group3:hover{
+    background-color: #05f91e;
+}
+  
