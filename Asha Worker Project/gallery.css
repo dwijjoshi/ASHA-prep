@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.gallery {
+  border: 2px solid #eaafe0;
+  border-radius: 10px;
+  padding: 15px;
+  /* background: #eaafe0; */
+  width: fit-content;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+
+  position: relative;
+  margin: auto;
+  top: 20rem;
+  left: 25rem;
+
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 20px, rgba(0, 0, 0, 0.1) 0px 6px 6px;
+
+  transition: all 1s ease-in 0.1s;
+}
+
+.gallery img {
+  width: 150px;
+  height: 150px;
+  border: none;
+  border-radius: 5px;
+}
+
+.galbtn a {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #e76ad2;
+  border-radius: 5px;
+  /* padding: 20px; */
+  background-color: #eaafe0;
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: capitalize;
+  text-align: center;
+  width: 11rem;
+  height: 4rem;
+}
+
+.galbtn {
+  position: relative;
+  top: -12.9rem;
+  left: 9.5rem;
+
+  transition: 2s;
+}
+
+.galbtn a:hover {
+  background-color: #f7a6e9;
+  color: darkmagenta;
+}
+
+.gallery:hover img {
+  filter: blur(0px);
+}
+
+.gallery img:hover {
+  filter: blur(2px);
+}
+/* 
+.galbtn,
+.gallery:not(:hover) {
+  filter: blur(20px);
+} */
+
+/* .galbtn:hover,
+.gallery img:not(:hover) {
+  filter: blur(20px);
+} */
