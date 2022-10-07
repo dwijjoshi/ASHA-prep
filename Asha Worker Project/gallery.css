@@ -64,20 +64,20 @@
   color: darkmagenta;
 }
 
-.gallery:hover img {
+/* .gallery:hover img {
   filter: blur(0px);
 }
 
 .gallery img:hover {
   filter: blur(2px);
-}
+} */
 /* 
 .galbtn,
 .gallery:not(:hover) {
   filter: blur(20px);
 } */
 
-/* .galbtn:hover,
+.galbtn:hover,
 .gallery img:not(:hover) {
-  filter: blur(20px);
-} */
+  filter: blur(2px);
+}
